@@ -1,10 +1,10 @@
-# 🧩 Financial Sentiment Analysis
+# Financial Sentiment Analysis
 
 **Sentiment Dynamics in AAPL Financial News Using FinBERT**
 
 ---
 
-## 1️⃣ Research Motivation and Background
+## 1. Research Motivation and Background
 
 ### What
 
@@ -28,7 +28,7 @@ This project applies these insights to Apple’s financial news flow, providing 
 
 ---
 
-## 2️⃣ Research Objectives
+## 2. Research Objectives
 
 1. **Ingest** AAPL-related financial news and historical price data from Benzinga.
 2. **Curate and store** data in a Delta Lakehouse (Bronze → Silver → Gold).
@@ -38,7 +38,7 @@ This project applies these insights to Apple’s financial news flow, providing 
 
 ---
 
-## 3️⃣ System Architecture
+## 3. System Architecture
 
 ```
 ┌──────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ This project applies these insights to Apple’s financial news flow, providing 
 
 ---
 
-## 4️⃣ Data Preparation and Feature Engineering
+## 4. Data Preparation and Feature Engineering
 
 ### 4.1 Ingestion & Curation
 
@@ -133,9 +133,7 @@ Aggregate FinBERT outputs into daily metrics in the **Gold layer**:
 
 ---
 
-## 5️⃣ Sentiment Analysis and Evaluation
-
-### Quantitative Analysis
+## 5. Sentiment Analysis and Evaluation
 
 1. **Correlation and Co-movement Analysis:**
    Quantify the relationship between daily FinBERT sentiment metrics (`sent_mean`, `pos_ratio`, `doc_count`) and AAPL’s market indicators (`ret_1d`, `vol_1d`).
@@ -145,7 +143,7 @@ Aggregate FinBERT outputs into daily metrics in the **Gold layer**:
 
 ---
 
-## 6️⃣ Implementation Roadmap
+## 6. Implementation Roadmap
 
 | Phase                    | Duration | Deliverable                                              |
 | ------------------------ | -------- | -------------------------------------------------------- |
@@ -158,7 +156,7 @@ Aggregate FinBERT outputs into daily metrics in the **Gold layer**:
 
 ---
 
-## 7️⃣ Expected Contributions
+## 7. Expected Contributions
 
 ### Academic
 
@@ -177,7 +175,7 @@ Aggregate FinBERT outputs into daily metrics in the **Gold layer**:
 
 ---
 
-## 8️⃣ Reference Mapping
+## 8. Reference Mapping
 
 | Component                    | Key Source                    | Relevance                                           |
 | ---------------------------- | ----------------------------- | --------------------------------------------------- |
@@ -188,7 +186,7 @@ Aggregate FinBERT outputs into daily metrics in the **Gold layer**:
 
 ---
 
-## 9️⃣ IEEE-Style References
+## 9. References
 
 [1] J. Bollen, H. Mao, and X. Zeng, “Twitter mood predicts the stock market,” *Journal of Computational Science*, vol. 2, no. 1, pp. 1–8, 2011.
 [2] B. Li, K. C. C. Chan, C. Ou, and R. Sun, “Discovering public sentiment in social media for predicting stock movement of publicly listed companies,” *Information Systems*, vol. 69, pp. 81–92, 2017.
